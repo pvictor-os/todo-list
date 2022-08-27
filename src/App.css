@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0C0C1E;
+}
+
+.App-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.App-todo {
+  height: 28rem;
+  width: 28rem;
+}
+
+.App-input-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #1b2b38;
+  overflow: hidden;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+}
+
+.App-header-check {
+  color: #32CD30;
+  margin-bottom: 12px;
+}
+
+.App-input {
+  flex: 1;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  padding: 15px;
+}
+
+.App-input::placeholder {
+  color: #bdbdbd;
+}
+
+.App-input-button {
+  width: 3rem;
+  height: 100%;
+  background-color: #32CD30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.App-todo-list {
+  background-color: #1b2b38;
+  height: 100%;
+  margin-top: 2rem;
+  overflow: auto;
+}
+
+.App-todo-list>p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App-todo-list>p>span {
+  border-bottom: 2px solid #AD02FE;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 10px;
+  padding-inline-end: 5px;
+}
+
+
+@media (max-width: 480px) {
+  .App-main {
+    width: 100vw;
+    margin-bottom: 120px;
+  }
+
+  .App-todo {
+    width: 85vw;
+  }
+
+  .App-input {
+    width: 80%;
+  }
+
+}

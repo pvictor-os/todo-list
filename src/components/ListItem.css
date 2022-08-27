@@ -1,0 +1,62 @@
+.todo {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px 14px 20px;
+  width: 100%;
+}
+
+.todo-radio {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  border: 1px solid #bf56ff;
+  cursor: pointer;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.todo-radio-checked {
+  height: 24px;
+  width: 24px;
+  border-radius: 50px;
+  background-color: #ad02fe;
+  border: 1px solid #bf56ff;
+  cursor: pointer;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+
+.todo-text {
+  color: #ffffff;
+  flex: 1;
+  padding-left: 5px;
+  flex-wrap: wrap;
+  cursor: default;
+}
+
+.todo-text-checked {
+  text-decoration: line-through;
+  color: #76768c;
+  flex: 1;
+  padding-left: 5px;
+}
+
+
+.todo-update {
+  cursor: pointer;
+  color: #AD02FE;
+  padding: 0 7px 0 7px;
+}
+
+.todo-delete {
+  cursor: pointer;
+  color: #AD02FE;
+  padding: 0 4px 0 4px;
+}
